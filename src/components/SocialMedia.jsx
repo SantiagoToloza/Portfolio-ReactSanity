@@ -5,13 +5,19 @@ const SocialMedia = () => {
   return (
     <div className="app__social">
       <div>
-        <BsLinkedin onClick="window.location.href='https://www.linkedin.com.ar'   "> </BsLinkedin>
+        <a href="https://www.linkedin.com/in/santiagotoloza/">
+          <BsLinkedin></BsLinkedin>
+        </a>
       </div>
       <div>
-        <FaFacebookF />
+        <a href="https://www.facebook.com/santiagotooloza/">
+          <FaFacebookF />
+        </a>
       </div>
       <div>
-        <BsInstagram />
+        <a href="https://www.instagram.com/santiagotoloza_/">
+          <BsInstagram />
+        </a>
       </div>
     </div>
   );
