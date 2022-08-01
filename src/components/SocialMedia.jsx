@@ -18,6 +18,7 @@ const SocialMedia = () => {
         <a href="https://www.instagram.com/santiagotoloza_/">
           <BsInstagram />
         </a>
+        <a></a>
       </div>
     </div>
   );
