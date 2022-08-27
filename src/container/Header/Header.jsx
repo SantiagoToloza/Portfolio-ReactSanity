@@ -24,8 +24,8 @@ const Header = () => {
             </div>
           </div>
           <div className="download-cv">
-              <button className="button-cv"> <a href="https://drive.google.com/uc?id=1ec-r2p22ryKtfKbU-ONNlSvfP_pdX94o&export=download" >Download CV</a> </button>
-              <button className="button-cv"><a href="https://drive.google.com/file/d/1ec-r2p22ryKtfKbU-ONNlSvfP_pdX94o/view?usp=sharing" target="_blank">View Online</a> </button>
+              <button className="button-cv"> <a href="../cv/SantiagoTolozaCV.pdf"  download="SantiagoTolozaReact.pdf">Donwload prueba CV</a> </button>
+              <button className="button-cv"> <a href="../cv/SantiagoTolozaCV.pdf"  target="_blank">View online prueba </a> </button>
           </div>
         </div>
       </motion.div>
