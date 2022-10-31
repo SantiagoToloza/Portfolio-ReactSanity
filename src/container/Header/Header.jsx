@@ -13,7 +13,7 @@ const Header = () => {
       >
         <div className="app__header-badge">
           <div className="tag-cmp app__flex">
-            <p className="p-text">Web Developer</p>
+            <p className="p-text">Front end developer</p>
             <p className="p-text">Freelancer</p>
           </div>
           <div className="badge-cmp app__flex">
