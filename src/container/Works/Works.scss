@@ -25,8 +25,8 @@
     margin: 0.5rem;
 
     &:hover {
-      background-color: var(--secondary-color);
-      color: #fff;
+      background-color: var(--violet-color);
+      color: var(--secondary-color);
     }
 
     @media screen and (min-width: 2000px) {
@@ -36,7 +36,7 @@
   }
 
   .item-active {
-    background-color: var(--secondary-color);
+    background-color: var(--violet-color);
     color: #fff;
   }
 }
@@ -108,7 +108,7 @@
   border-radius: 0.5rem;
   opacity: 0;
   transition: all 0.3s ease;
-  
+
 
   div {
     width: 50px;
@@ -162,10 +162,11 @@
   justify-content: space-evenly;
   width: 100%;
 
-  .icons{
+  .icons {
     font-size: 42px;
-    color: var(--secondary-color) ;
-    a{
+    color: var(--secondary-color);
+
+    a {
       text-decoration: none;
     }
   }
@@ -173,7 +174,7 @@
 
 @media screen and (min-width: 897px) {
   .app__work-icons {
-   
+
     display: none !important;
   }
 }

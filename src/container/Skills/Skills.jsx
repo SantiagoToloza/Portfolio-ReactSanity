@@ -14,37 +14,37 @@ const Skills = () => {
 
   return (
     <>
-    <h2 className="head-text">My skills</h2>
-    <div className="app__skill">
-      {skills.map((skill, index) => (
-        <div className="app__skills-container"
-        key={skill.name + index}
-        >
-          <motion.div className="app__skills-list">
-            <motion.div
-              whileInView={{ opacity: [0, 1] }}
-              transition={{ duration: 0.5 }}
-              className="app__skills-item app__flex"
-              
+      <h2 className="head-text">My skills</h2>
+      <div className="app__skill">
+        {skills.map((skill, index) => (
+          <div className="app__skills-container"
+            key={skill.name + index}
+          >
+            <motion.div className="app__skills-list">
+              <motion.div
+                whileInView={{ opacity: [0, 1] }}
+                transition={{ duration: 0.5 }}
+                className="app__skills-item app__flex"
+
               >
-              <div
-                className="app__flex"
-                style={{ backgroundColor: skill.bgColor }}
-                
+                <div
+                  className="app__flex"
+                  style={{ backgroundColor: skill.bgColor }}
+
                 >
-                <img
-                  className="img"
-                  src={urlFor(skill.icon)}
-                  alt={skill.name}
+                  <img
+                    className="img"
+                    src={urlFor(skill.icon)}
+                    alt={skill.name}
                   />
-              </div>
-              <p className="p-text">{skill.name}</p>
+                </div>
+                <p className="p-text">{skill.name}</p>
+              </motion.div>
             </motion.div>
-          </motion.div>
-        </div>
-      ))}
-    </div>
-      </>
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
-export default AppWrap(Skills,'skills' ) ;
+export default AppWrap(Skills, 'skills');

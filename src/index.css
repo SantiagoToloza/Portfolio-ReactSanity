@@ -2,13 +2,14 @@
 
 :root {
   --font-base: "DM Sans", sans-serif;
-  --primary-color: #EAF6F6;
-  --secondary-color: #8338ec;
-  --black-color: #030303;
+  --primary-color: #050133;
+  --secondary-color: #ffff;
+  --black-color: #0000;
   --lightGray-color: #e4e4e4;
-  --gray-color: #6b7688;
+  --gray-color: #545b66;
   --brown-color: #46364a;
   --white-color: #ffffff;
+  --violet-color: #1d147a;
 }
 
 * {
@@ -19,8 +20,8 @@
 }
 
 html {
-    max-width: 100% !important;
-    overflow-x:hidden;
-   
+  max-width: 100% !important;
+  overflow-x: hidden;
+
 
 }
