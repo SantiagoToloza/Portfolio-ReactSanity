@@ -24,8 +24,8 @@ const Header = () => {
             </div>
           </div>
           <div className="download-cv">
-          <button className="button-cv"> <a href="Santiago Toloza.pdf" download="SantiagoTolozaRESUME.pdf" >Download CV</a> </button>
-              <button className="button-cv"><a href="Santiago Toloza.pdf" target="_blank">View Online</a> </button>
+            <button className="button-cv"> <a href="Santiago Toloza Ssr.pdf" download="SantiagoTolozaRESUME.pdf" >Download CV</a> </button>
+            <button className="button-cv"><a href="Santiago Toloza Ssr.pdf" target="_blank">View Online</a> </button>
           </div>
         </div>
       </motion.div>
@@ -33,7 +33,7 @@ const Header = () => {
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        transition={{duration:1.5}}
+        transition={{ duration: 1.5 }}
         viewport={{ once: true }}
         className="app__header-img"
       >
